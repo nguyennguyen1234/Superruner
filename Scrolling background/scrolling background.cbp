@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="scrolling background" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/scrolling background" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/scrolling background" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/Admin/Desktop/SDL2-2.0.14/x86_64-w64-mingw32/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:/Users/Admin/Desktop/SDL2-2.0.14/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="XCOPY $(#sdl2)\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
+		</ExtraCommands>
+		<Unit filename="ALGER.TTF" />
+		<Unit filename="BAUHS93.TTF" />
+		<Unit filename="COOPBL.TTF" />
+		<Unit filename="Xbutton.png" />
+		<Unit filename="backgroundmusic.mp3" />
+		<Unit filename="button1.png" />
+		<Unit filename="exitbutton.png" />
+		<Unit filename="gamebackground.png" />
+		<Unit filename="gameoverboard.png" />
+		<Unit filename="helpboard.png" />
+		<Unit filename="helpsbutton.png" />
+		<Unit filename="images.jfif" />
+		<Unit filename="jump2.wav" />
+		<Unit filename="losing.wav" />
+		<Unit filename="ltexture.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.png" />
+		<Unit filename="menuboard.png" />
+		<Unit filename="monster1.png" />
+		<Unit filename="monster2.png" />
+		<Unit filename="monster3.png" />
+		<Unit filename="monster5.png" />
+		<Unit filename="moseclick.h" />
+		<Unit filename="mouseclick.h" />
+		<Unit filename="muteicon.png" />
+		<Unit filename="overbutton.png" />
+		<Unit filename="overexitbutton.png" />
+		<Unit filename="playbutton.png" />
+		<Unit filename="resumebutton.png" />
+		<Unit filename="runfunction.h" />
+		<Unit filename="scrolling background.cbp" />
+		<Unit filename="soundicon.png" />
+		<Unit filename="window.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

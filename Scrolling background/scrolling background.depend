@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1619623009 source:e:\c++\scrolling background\main.cpp
+	"window.h"
+	"ltexture.h"
+	"runfunction.h"
+	"moseclick.h"
+
+1617461219 e:\c++\scrolling background\window.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<string>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<sstream>
+
+1617855922 e:\c++\scrolling background\ltexture.h
+
+1619622368 e:\c++\scrolling background\runfunction.h
+
+1616855000 e:\c++\scrolling background\collision.h
+
+1619536441 e:\c++\scrolling background\moseclick.h
+
+1619622292 source:e:\c++\supper runner\main.cpp
+	"window.h"
+	"ltexture.h"
+	"runfunction.h"
+	"mouseclick.h"
+
+1617461219 e:\c++\supper runner\window.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<string>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<sstream>
+
+1617855922 e:\c++\supper runner\ltexture.h
+
+1619622368 e:\c++\supper runner\runfunction.h
+
+1619536441 e:\c++\supper runner\mouseclick.h
+
