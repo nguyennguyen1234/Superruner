@@ -10,4 +10,5 @@ Bài tập lớn Lập trình nâng cao INT2215_2
 - Image were taken from google images.
 - Ttf were taken from window fonts.
 # READ MORE
-- Setting and function description: README.txt
+- Setting and function description: [README.txt](https://github.com/nguyennguyen1234/Superruner/tree/main/Scrolling%20background#readme)
+- 
